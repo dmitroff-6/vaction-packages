@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 @Repository
 public class HolidaysRepository {
-    private Set<String> storage = new HashSet<>() {{
+    private final Set<String> storage = new HashSet<>() {{
         add("01-01");
         add("01-07");
         add("02-23");

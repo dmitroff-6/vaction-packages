@@ -2,12 +2,10 @@ package com.vacationpackages.service;
 
 import com.vacationpackages.enums.CalculateTypeValues;
 import com.vacationpackages.repository.HolidaysRepository;
-import org.joda.time.Days;
 import org.springframework.stereotype.Service;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 @Service
 public class CalculateService {
